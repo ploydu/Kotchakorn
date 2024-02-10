@@ -15,18 +15,18 @@ nav {
     justify-content: space-between;
 }
 .logo {
-    width: 30%;
+    width: 40%;
 }
 .logo img {
-    width: 220px;
+    width: 230px;
     float: left;
 }
 .logo span {
     text-transform: uppercase;
-    color: pink;
+    color: hsl(337, 100%, 79%);
     font-weight: bold;
     line-height: 215px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10px;
 }
 .nav-menu {
@@ -38,18 +38,18 @@ nav {
     list-style: none;
     padding: 10px 15px ;
     font-size: 20px;
-    color: #666;
+    color: hsl(0, 0%, 38%);
 }
 a {
     text-decoration: none;
     color: inherit;
 }
 .nav-menu li:last-child {
-    color: pink;
+    color: hsl(337, 100%, 79%);
     font-weight: 500;
 }
 a:hover {
-    color: pink;
+    color: hsl(337, 100%, 79%);
 }
 .nav-right {
     width: 30%;
@@ -68,7 +68,7 @@ a:hover {
     border-radius: 20px;
 }
 i:hover {
-    color: pink;
+    color: hsl(337, 100%, 79%);
     cursor: pointer;
 }
 .cart {
@@ -102,27 +102,27 @@ main {
 }
 .item {
     width: 24%;
-    height: 400px;
-    background: hsl(0, 7%, 92%);
+    height: 300px;
+    background: whitesmoke;
     padding: 5px;
     position: relative;
     transition: 0.5s;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 .item:hover {
-    height: 560px;
+    height: 600px;
 }
 .item:hover .data {
     padding: 10px;
-    height: 250px;
+    height: 350px;
 }
 .item:hover img {
-    transform: scale(0.8);
+    transform: scale(0.9);
 }
 .item img {
     width: 100%;
     margin: auto;
-    transform: scale(1.09);
+    transform: scale(1.02);
     transition: inherit;
 }
 .data {
@@ -167,15 +167,9 @@ main {
     text-align: center;
     margin: 0 6px;
 }
-.in:nth-of-type(2n) span {
-    background: rgb(235, 74, 0);
-    border: 2px solid #ccc;
-}
-.in:nth-of-type(2n) span:first-child {
-    background: pink;
-}
-.in:nth-of-type(2n) span:last-child {
-    background: #1f0008;
+.in-4 span.active {
+    background-color: #ff006a;
+    color: white;
 }
 .in-4 span {
     width: 70px;
@@ -199,7 +193,7 @@ main {
 }
 .in-4-4:nth-of-type(2n) span {
     background: rgb(253, 223, 223);
-    border: 2px solid #ccc;
+    border: 2px solid #302e2e;
 }
 .in-4-4:nth-of-type(2n) span:first-child {
     background: rgb(255, 175, 248);
@@ -228,7 +222,7 @@ button:hover {
     position: absolute;
     top: 0;
     left: 0;
-    background: pink;
+    background: whitesmoke;
     width: 100%;
     height: 300px;
     border-radius: inherit;
