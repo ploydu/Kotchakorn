@@ -86,7 +86,7 @@ i:hover {
     left: 10px;
     text-align: center;
     background-color: red;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     opacity: 0;
 }
@@ -166,6 +166,16 @@ main {
     display: inline-block;
     text-align: center;
     margin: 0 6px;
+}
+.in:nth-of-type(2n) span {
+    background: hsl(128, 100%, 80%);
+    border: 2px solid #302e2e;
+}
+.in:nth-of-type(2n) span:first-child {
+    background: hsl(61, 100%, 78%);
+}
+.in:nth-of-type(2n) span:last-child {
+    background: hwb(0 55% 1%);
 }
 .in-4 span.active {
     background-color: #ff006a;
